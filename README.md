@@ -6,7 +6,7 @@ docker for ganache-cli
 sudo docker build -t ganache .
 
 # runs the app. -d will detach the app so that it will in background
-sudo docker run -d -p 8545:8545 ganache
+sudo docker run -d -p 7545:7545 ganache
 
 # checks if ganache has run successfully
 sudo docker logs ganache
